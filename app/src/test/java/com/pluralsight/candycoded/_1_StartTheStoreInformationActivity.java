@@ -33,7 +33,7 @@ public class _1_StartTheStoreInformationActivity {
     // Mockito setup
     @BeforeClass
     public static void setup() throws Exception {
-        // Spy on a MainActivity instance.
+     
         activity = PowerMockito.spy(new MainActivity());
         // Create a fake Bundle to pass in.
         Bundle bundle = Mockito.mock(Bundle.class);
